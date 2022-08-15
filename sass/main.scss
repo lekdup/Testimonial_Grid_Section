@@ -1,1 +1,42 @@
 @import "./variables";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Barlow Semi Condense", sans-serif;
+    background-color: #bbb;
+}
+
+article {
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+    header {
+        display: flex;
+        align-items: center;
+        img {
+            width: 2rem;
+            border: 1px solid $White;
+            border-radius: 50%;
+        }
+        h2{
+            padding-left: 1rem;
+            font-size: .7rem;
+            line-height: 1rem;
+            span {
+                font-weight: 500;
+            }
+        }
+    }
+    h1 {
+        padding: 1.5rem 0;
+        line-height: 1.4rem;
+    }
+    main {
+        font-size: .75rem;
+        line-height: 1rem;
+    }
+}

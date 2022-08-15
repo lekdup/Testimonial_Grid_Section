@@ -1,3 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: "Barlow Semi Condense", sans-serif;
+  background-color: #bbb;
+}
+
+article {
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1rem;
+}
+article header {
+  display: flex;
+  align-items: center;
+}
+article header img {
+  width: 2rem;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+article header h2 {
+  padding-left: 1rem;
+  font-size: 0.7rem;
+  line-height: 1rem;
+}
+article header h2 span {
+  font-weight: 500;
+}
+article h1 {
+  padding: 1.5rem 0;
+  line-height: 1.4rem;
+}
+article main {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
 
 /*# sourceMappingURL=style.css.map */
