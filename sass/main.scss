@@ -8,10 +8,12 @@
 body {
     font-family: "Barlow Semi Condense", sans-serif;
     background-color: $Light-grayish-blue;
+    min-height: 100vh;
 }
 
 article {
     border-radius: 1rem;
+    box-shadow: 5px 5px 20px $Light-gray;
     padding: 1rem;
     margin: 1rem;
     header {
@@ -29,7 +31,7 @@ article {
             color: $White;
             span {
                 font-weight: 500;
-                color: $Light-gray;
+                color: hsla(0, 0%, 100%, 50%);
             }
         }
     }
@@ -41,7 +43,7 @@ article {
     main {
         font-size: .75rem;
         line-height: 1rem;
-        color: $Light-gray;
+        color: hsla(0, 0%, 100%, 70%);
     }
 }
 .purple {
@@ -57,9 +59,12 @@ article {
     }
     h2{
         color: $Very-dark-grayish-blue;
+        span {
+            color: hsla(217, 19%, 35%, 50%);
+        }
     }
     main{
-        color: $Very-dark-grayish-blue;
+        color: hsla(217, 19%, 35%, 70%);
     }
 }
 .dark-blue {

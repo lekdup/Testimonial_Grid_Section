@@ -7,10 +7,12 @@
 body {
   font-family: "Barlow Semi Condense", sans-serif;
   background-color: #ecf2f8;
+  min-height: 100vh;
 }
 
 article {
   border-radius: 1rem;
+  box-shadow: 5px 5px 20px #cfcfcf;
   padding: 1rem;
   margin: 1rem;
 }
@@ -31,7 +33,7 @@ article header h2 {
 }
 article header h2 span {
   font-weight: 500;
-  color: #cfcfcf;
+  color: rgba(255, 255, 255, 0.5);
 }
 article h1 {
   padding: 1.5rem 0;
@@ -41,7 +43,7 @@ article h1 {
 article main {
   font-size: 0.75rem;
   line-height: 1rem;
-  color: #cfcfcf;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .purple {
@@ -61,8 +63,11 @@ article main {
 .white h2 {
   color: #48556a;
 }
+.white h2 span {
+  color: rgba(72, 85, 106, 0.5);
+}
 .white main {
-  color: #48556a;
+  color: rgba(72, 85, 106, 0.7);
 }
 
 .dark-blue {
