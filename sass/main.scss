@@ -7,7 +7,7 @@
 }
 body {
     font-family: "Barlow Semi Condense", sans-serif;
-    background-color: #bbb;
+    background-color: $Light-grayish-blue;
 }
 
 article {
@@ -26,17 +26,42 @@ article {
             padding-left: 1rem;
             font-size: .7rem;
             line-height: 1rem;
+            color: $White;
             span {
                 font-weight: 500;
+                color: $Light-gray;
             }
         }
     }
     h1 {
         padding: 1.5rem 0;
         line-height: 1.4rem;
+        color: $White;
     }
     main {
         font-size: .75rem;
         line-height: 1rem;
+        color: $Light-gray;
     }
+}
+.purple {
+    background-color: $Moderate-violet;
+}
+.grayish-blue {
+    background-color: $Very-dark-grayish-blue;
+}
+.white {
+    background-color: $White;
+    h1{
+        color: $Very-dark-grayish-blue;
+    }
+    h2{
+        color: $Very-dark-grayish-blue;
+    }
+    main{
+        color: $Very-dark-grayish-blue;
+    }
+}
+.dark-blue {
+    background-color: $Very-dark-blackish-blue;
 }

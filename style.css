@@ -6,7 +6,7 @@
 
 body {
   font-family: "Barlow Semi Condense", sans-serif;
-  background-color: #bbb;
+  background-color: #ecf2f8;
 }
 
 article {
@@ -27,17 +27,46 @@ article header h2 {
   padding-left: 1rem;
   font-size: 0.7rem;
   line-height: 1rem;
+  color: white;
 }
 article header h2 span {
   font-weight: 500;
+  color: #cfcfcf;
 }
 article h1 {
   padding: 1.5rem 0;
   line-height: 1.4rem;
+  color: white;
 }
 article main {
   font-size: 0.75rem;
   line-height: 1rem;
+  color: #cfcfcf;
+}
+
+.purple {
+  background-color: #7541c8;
+}
+
+.grayish-blue {
+  background-color: #48556a;
+}
+
+.white {
+  background-color: white;
+}
+.white h1 {
+  color: #48556a;
+}
+.white h2 {
+  color: #48556a;
+}
+.white main {
+  color: #48556a;
+}
+
+.dark-blue {
+  background-color: #19212e;
 }
 
 /*# sourceMappingURL=style.css.map */
