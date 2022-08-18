@@ -8,13 +8,14 @@ body {
   font-family: "Barlow Semi Condense", sans-serif;
   background-color: #ecf2f8;
   min-height: 100vh;
+  padding: 4rem 1.5rem;
 }
 
 article {
   border-radius: 1rem;
   box-shadow: 5px 5px 20px #cfcfcf;
-  padding: 1rem;
-  margin: 1rem;
+  padding: 2rem;
+  margin-bottom: 1.5rem;
 }
 article header {
   display: flex;
@@ -39,6 +40,7 @@ article h1 {
   padding: 1.5rem 0;
   line-height: 1.4rem;
   color: white;
+  font-weight: 500;
 }
 article main {
   font-size: 0.75rem;
@@ -48,6 +50,11 @@ article main {
 
 .purple {
   background-color: #7541c8;
+}
+.purple .quotation {
+  background-image: url("../images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position: top right 10%;
 }
 
 .grayish-blue {
@@ -72,6 +79,9 @@ article main {
 
 .dark-blue {
   background-color: #19212e;
+}
+.dark-blue img {
+  border: 1px solid #7541c8;
 }
 
 /*# sourceMappingURL=style.css.map */

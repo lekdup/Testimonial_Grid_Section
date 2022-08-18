@@ -9,13 +9,14 @@ body {
     font-family: "Barlow Semi Condense", sans-serif;
     background-color: $Light-grayish-blue;
     min-height: 100vh;
+    padding: 4rem 1.5rem;
 }
 
 article {
     border-radius: 1rem;
     box-shadow: 5px 5px 20px $Light-gray;
-    padding: 1rem;
-    margin: 1rem;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
     header {
         display: flex;
         align-items: center;
@@ -39,6 +40,7 @@ article {
         padding: 1.5rem 0;
         line-height: 1.4rem;
         color: $White;
+        font-weight: 500;
     }
     main {
         font-size: .75rem;
@@ -48,6 +50,11 @@ article {
 }
 .purple {
     background-color: $Moderate-violet;
+    .quotation {
+        background-image: url("../images/bg-pattern-quotation.svg");
+        background-repeat: no-repeat;
+        background-position: top right 10%;
+    }
 }
 .grayish-blue {
     background-color: $Very-dark-grayish-blue;
@@ -69,4 +76,7 @@ article {
 }
 .dark-blue {
     background-color: $Very-dark-blackish-blue;
+    img {
+        border: 1px solid $Moderate-violet;
+    }
 }
