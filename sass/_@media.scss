@@ -1,0 +1,16 @@
+@media all and (min-width: 700px) {
+    section {
+        display: grid;
+        gap: 1.5rem;
+        grid-template-columns: repeat(4, 1fr);
+        margin: 5rem;
+        font-size: 0.81rem;
+    }
+    .span-2 {
+        grid-column: span 2;
+    }
+    aside {
+        grid-column-start: 4;
+        grid-row: 1/3;
+    }
+}
