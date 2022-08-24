@@ -19,7 +19,7 @@ section {
     gap: 1.5rem;
 }
 article {
-    border-radius: 1rem;
+    border-radius: 14px;
     box-shadow: 5px 5px 20px $Light-gray;
     padding: 2rem;
     header {
@@ -46,7 +46,7 @@ article {
         color: $White;
         font-weight: 500;
     }
-    main {
+    blockquote {
         font-size: .7rem;
         line-height: 1rem;
         color: hsla(0, 0%, 100%, 70%);
@@ -72,7 +72,7 @@ article {
             color: hsla(217, 19%, 35%, 50%);
         }
     }
-    main{
+    blockquote {
         color: hsla(217, 19%, 35%, 70%);
     }
 }

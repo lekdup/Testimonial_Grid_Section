@@ -1,7 +1,5 @@
 @media all and (min-width: 700px) {
     section {
-        display: grid;
-        gap: 1.5rem;
         grid-template-columns: repeat(4, 1fr);
         margin: 6rem;
         font-size: 0.81rem;

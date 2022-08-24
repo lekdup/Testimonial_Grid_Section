@@ -1,7 +1,5 @@
 @media all and (min-width: 700px) {
   section {
-    display: grid;
-    gap: 1.5rem;
     grid-template-columns: repeat(4, 1fr);
     margin: 6rem;
     font-size: 0.81rem;
@@ -42,7 +40,7 @@ section {
 }
 
 article {
-  border-radius: 1rem;
+  border-radius: 14px;
   box-shadow: 5px 5px 20px #cfcfcf;
   padding: 2rem;
 }
@@ -70,7 +68,7 @@ article h1 {
   color: white;
   font-weight: 500;
 }
-article main {
+article blockquote {
   font-size: 0.7rem;
   line-height: 1rem;
   color: rgba(255, 255, 255, 0.7);
@@ -99,7 +97,7 @@ article main {
 .white h2 span {
   color: rgba(72, 85, 106, 0.5);
 }
-.white main {
+.white blockquote {
   color: rgba(72, 85, 106, 0.7);
 }
 
